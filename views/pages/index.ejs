@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+  </head>
+  <body>
+    <h1>Home Page</h1>
+    <script>
+      // document.cookie = 'key=value' // Cách tạo một cookie
+      // document.cookie = 'email=huuhungnguyen2002@gmail.com; path=/bai-viet'; // Khi đường dẫn đến bài viết thì nó mới tạo được cookie là email còn nếu không phải ở email thì sẽ không tạo được
+      // Xét thời gian hết hạn cho cookie
+      //  Cách 1
+      //   const date = new Date();
+      //   date.setTime(Date.now() + 5000);
+      //   document.cookie = `email=abc@gmail.com; expires=${date.toUTCString()}`;
+      // Cách 2
+        document.cookie = `email=yushingdev@gmail.com; max-age=3600; secure`
+    </script> 
+  </body>
+</html>
+
